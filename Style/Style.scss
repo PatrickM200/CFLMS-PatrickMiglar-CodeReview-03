@@ -317,3 +317,31 @@ h1 {
 
     }
 }
+
+/* *********MEDIA Q **************** */
+
+@media screen and (max-width:800px)
+{
+.calculator {
+    height: 300px;
+
+}
+
+.sectiontwo {
+
+    flex-wrap: wrap;
+        div{
+    margin-bottom: 30px;
+    }
+}
+    .footerimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+   .banner
+    {
+        display: none;
+}
+}

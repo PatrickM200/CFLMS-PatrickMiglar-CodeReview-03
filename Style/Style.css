@@ -209,4 +209,22 @@ h1 {
       height: 50px;
       font-size: 25pt; }
 
+/* *********MEDIA Q **************** */
+@media screen and (max-width: 800px) {
+  .calculator {
+    height: 300px; }
+
+  .sectiontwo {
+    flex-wrap: wrap; }
+    .sectiontwo div {
+      margin-bottom: 30px; }
+
+  .footerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+  .banner {
+    display: none; } }
+
 /*# sourceMappingURL=Style.css.map */
