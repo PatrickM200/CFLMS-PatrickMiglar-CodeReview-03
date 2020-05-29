@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/*Colors */
+/*Fontsizes*/
+/* ***************** HEADER ***************** */
+header {
+  background-color: #FFF3F3;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header figure {
+    margin: 0px 15px; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0; }
+  body .fonts {
+    font-size: 10pt; }
+  body .fontm {
+    font-size: 13pt; }
+  body .fontb {
+    font-size: 18pt; }
+  body hr {
+    color: grey; }
+
+/* ***************** NAVIGATION TOP ***************** */
+.topnav {
+  background-color: #8E1616;
+  text-decoration: none;
+  margin: 0;
+  width: 100%;
+  line-height: 50px; }
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-right: 20px; }
+
+/* ***************** FOOTER ***************** */
+.botnav {
+  text-decoration: none; }
+
+footer {
+  background-color: #171717;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 10px; }
+
+.navlist {
+  margin: 0; }
+  .navlist li {
+    display: inline; }
+
+.footertext {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 10px; }
+
+.footerimg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+/* ***************** CONTENT ***************** */
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 250px 0px 0px 50px;
+  color: #FFFFFF;
+  z-index: -1;
+  font-weight: normal;
+  font-size: 40pt; }
+
+.sectionone {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  justify-content: space-around; }
+  .sectionone figure {
+    display: flex;
+    margin: 0px;
+    position: relative;
+    margin: auto;
+    min-width: 100%; }
+    .sectionone figure img {
+      min-width: 100%;
+      z-index: -2; }
+    .sectionone figure figcaption {
+      background-color: #CECECE;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 100px 0px 20px 0px;
+      font-size: 18pt; }
+      .sectionone figure figcaption span {
+        font-size: 40pt; }
+
+/* ***************** BOTTOM BOXES ***************** */
+.sectiontwo {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  margin: 50px auto; }
+  .sectiontwo div {
+    border-color: grey;
+    box-shadow: 0px -3px 7px 2px;
+    padding: 20px;
+    min-width: 300px; }
+    .sectiontwo div ul {
+      list-style: none;
+      margin-left: -30px; }
+    .sectiontwo div ul li:before {
+      color: green;
+      font-weight: 900;
+      content: "✔️";
+      margin-right: 10px; }
+    .sectiontwo div li {
+      font-size: 10pt;
+      padding-left: 10px; }
+    .sectiontwo div p {
+      color: grey;
+      font-size: 10pt; }
+    .sectiontwo div span {
+      font-size: 12pt;
+      font-weight: bold;
+      color: black; }
+    .sectiontwo div h2 {
+      font-size: 15pt;
+      font-weight: normal;
+      color: #5383b8; }
+      .sectiontwo div h2 .h2span {
+        font-size: 10pt;
+        font-weight: normal;
+        color: black; }
+
+/* ***************** CALCULATOR BOX ***************** */
+.calculator {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  margin-top: -100px;
+  width: 70%;
+  height: 880px;
+  background-color: rgba(246, 246, 246, 0.8);
+  border-radius: 1%;
+  border: solid; }
+  .calculator .output {
+    font-size: 25pt;
+    color: green;
+    margin-top: 50px; }
+  .calculator .mainsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 5%;
+    top: 0; }
+  .calculator h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40pt;
+    font-weight: normal; }
+  .calculator .calc1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px; }
+    .calculator .calc1 div {
+      margin-right: 20px;
+      margin-left: 7%;
+      text-align: left; }
+      .calculator .calc1 div input {
+        width: 267px;
+        margin-bottom: 10px;
+        height: 30px; }
+      .calculator .calc1 div select {
+        width: 275px;
+        height: 36px;
+        margin-bottom: 10px;
+        padding: 1px 2px;
+        font-size: 15pt; }
+      .calculator .calc1 div p {
+        margin: 0; }
+  .calculator .calc2 {
+    display: flex;
+    flex-direction: column;
+    width: 300px; }
+    .calculator .calc2 div {
+      margin-right: 20px;
+      margin-left: 7%;
+      text-align: left; }
+      .calculator .calc2 div input {
+        width: 267px;
+        margin-bottom: 10px;
+        height: 30px; }
+      .calculator .calc2 div p {
+        margin: 0; }
+  .calculator .button_calc {
+    text-align: center;
+    margin-top: 50px; }
+    .calculator .button_calc button {
+      background-color: green;
+      border-radius: 12px;
+      color: #FFFFFF;
+      border: 0;
+      width: 300px;
+      height: 50px;
+      font-size: 25pt; }
+
+/*# sourceMappingURL=Style.css.map */
