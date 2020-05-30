@@ -345,3 +345,21 @@ h1 {
         display: none;
 }
 }
+
+.teamblock {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 50px 100px 200px 100px;
+
+    img {
+        display: flex;
+        width: 300px;
+        height: 300px;
+    }
+        button {
+        height: 40px;
+        width: 300px;
+        font-size: 15pt;
+    }
+}
